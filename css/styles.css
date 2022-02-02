@@ -613,6 +613,7 @@ a {
 }
 
 .block__header {
+  margin-bottom: 5rem;
   text-align: center;
 }
 
