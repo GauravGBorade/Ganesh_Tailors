@@ -725,6 +725,13 @@ a {
   letter-spacing: 1px;
   margin: 2rem 0.5rem;
 }
+.hero__tagline-2 {
+  font-size: 2rem;
+  color: #b9c3cf;
+  letter-spacing: 1px;
+  margin-bottom: 4rem;
+  margin-left: 0.5rem;
+}
 
 .hero__image {
   width: 100%;
