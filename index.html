@@ -15,7 +15,6 @@
       content="Absolute solution to your clothing needs."
     />
     <meta property="og:type" content="website" />
-    <!-- TODO: add url and image-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +29,7 @@
     <header>
       <nav class="nav collapsible">
         <a class="nav__brand" href="/"
-          ><img src="/Images/logo.svg" alt="Brand Logo"
+          ><img src="./new-images/logo.png" alt="Brand Logo"
         /></a>
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
@@ -56,22 +55,13 @@
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
         <picture data-aos="zoom-in-up">
-          <!-- <source
-            type="image/webp"
-            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/banner.png 1x, images/banner@2x.png 2x"
-          /> -->
-          <!-- TODO: change image resolution and type. -->
           <img class="hero__image" src="new-images/Image.jpeg" alt="" />
         </picture>
       </div>
     </section>
     <section class="block container block-domain">
       <header class="block__header" data-aos="zoom-in">
-        <h2>Starting at ₹100 per month</h2>
+        <h2>Starting at ₹1000 per month</h2>
         <p>Get the subscription you want and save more !</p>
       </header>
       <div class="input-group">
@@ -87,7 +77,7 @@
         </button>
       </div>
       <ul class="list block-domain__prices">
-        <li><span class="badge badge--secondary">Shirt ₹100</span></li>
+        <li><span class="badge badge--secondary">Shirt</span></li>
         <li>Pant</li>
         <li>Blazer</li>
         <li>Suit</li>
@@ -167,16 +157,14 @@
     <section class="block container">
       <header class="block__header">
         <h2>Choose the Style You Want, We Have All</h2>
-        <p>Premium Material, Excellent Finish, Smooth Fabric</p>
+        <p>Premium Material, Excellent Finish, Smooth Fabric.</p>
       </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#easy"></use>
-            </svg>
+            <img src="new-images/Shirt.svg" alt="" />
           </span>
-          <h3 class="feature__heading">Super Easy to Use</h3>
+          <h3 class="feature__heading">Shirts</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             illum dolor ullam sunt maxime omnis dolore odit beatae modi
@@ -185,23 +173,21 @@
           <a href="#" class="link-arrow">Learn More</a>
         </div>
         <picture data-aos="zoom-in-left">
-          <source
+          <!-- <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
           <source
             type="image/png"
-            srcset="images/easy.png 1x, images/easy@2x.png 2x" />
-          <img class="feature__image" src="Images/easy@2x.jpg" alt=""
+            srcset="images/easy.png 1x, images/easy@2x.png 2x" /> -->
+          <img class="feature__image" src="new-images/shirts.jpeg" alt=""
         /></picture>
       </article>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#computer"></use>
-            </svg>
+            <img src="new-images/Pant.svg" alt="" />
           </span>
-          <h3 class="feature__heading">Simply Fast Websites</h3>
+          <h3 class="feature__heading">Pants</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             illum dolor ullam sunt maxime omnis dolore odit beatae modi
@@ -209,24 +195,22 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
-          <source
+        <picture data-aos="zoom-in-right">
+          <!-- <source
             type="image/webp"
             srcset="images/fast.webp 1x, images/fast@2x.webp 2x" />
           <source
             type="image/png"
-            srcset="images/fast.png 1x, images/fast@2x.png 2x" />
-          <img class="feature__image" src="Images/fast@2x.jpg" alt=""
+            srcset="images/fast.png 1x, images/fast@2x.png 2x" /> -->
+          <img class="feature__image" src="new-images/pants.jpeg" alt=""
         /></picture>
       </article>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use>
-            </svg>
+            <img src="new-images/Suit.svg" alt="" />
           </span>
-          <h3 class="feature__heading">Wordpress Made Easy</h3>
+          <h3 class="feature__heading">Suits</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             illum dolor ullam sunt maxime omnis dolore odit beatae modi
@@ -234,68 +218,33 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
-          <source
+        <picture data-aos="fade-in-left">
+          <!-- <source
             type="image/webp"
             srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x" />
           <source
             type="image/png"
-            srcset="images/wordpress.png 1x, images/wordpress@2x.png 2x" />
-          <img class="feature__image" src="Images/wordpress@2x.jpg" alt=""
-        /></picture>
-      </article>
-      <article class="grid grid--1x2 feature">
-        <div class="feature__content" data-aos="fade-up">
-          <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#clock"></use>
-            </svg>
-          </span>
-          <h3 class="feature__heading">24/7 Expert Support</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            illum dolor ullam sunt maxime omnis dolore odit beatae modi
-            distinctio!
-          </p>
-          <a href="#" class="link-arrow">Learn More</a>
-        </div>
-        <picture data-aos="zoom-in-up">
-          <source
-            type="image/webp"
-            srcset="images/support.webp 1x, images/support@2x.webp 2x" />
-          <source
-            type="image/png"
-            srcset="images/support.png 1x, images/support@2x.png 2x" />
-          <img class="feature__image" src="Images/support@2x.jpg" alt=""
+            srcset="images/wordpress.png 1x, images/wordpress@2x.png 2x" /> -->
+          <img class="feature__image" src="new-images/Suits.jpeg" alt=""
         /></picture>
       </article>
     </section>
     <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header" data-aos="fade-down">
-        <h2>User-friendly Control Panel</h2>
+        <h2>How to Place an Order</h2>
       </header>
       <div class="container grid grid--1x2">
         <picture class="block-showcase__image" data-aos="fade-right">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-          />
-          <img src="images/ipad.png" alt="" />
+          <img class="block__image" src="./new-images/map.jpeg" alt="" />
         </picture>
         <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#snap"></use>
-                </svg>
+                <img src="./new-images/location.png" alt="" />
               </div>
               <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <h3 class="media__title">Come to Our Shop at Thane</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam quisquam, ex nostrum vero voluptates dicta excepturi
@@ -307,12 +256,10 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
+                <img src="./new-images/message.png" alt="" />
               </div>
               <div class="media__body">
-                <h3 class="media__title">Staging, GIT & WP-CLI</h3>
+                <h3 class="media__title">Message Us on Social Media</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam quisquam, ex nostrum vero voluptates dicta excepturi
@@ -324,12 +271,10 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
+                <img src="new-images/contact.png" alt="" />
               </div>
               <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
+                <h3 class="media__title">Contact Us via Email or Phone</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veniam quisquam, ex nostrum vero voluptates dicta excepturi
@@ -354,7 +299,7 @@
           <div class="grid grid--1x2">
             <div class="testimonial__image">
               <img
-                src="Images/testimonial.jpg"
+                src="new-images/testimonial.jpeg"
                 alt="A happy, smiling customer"
               />
               <span class="icon-container icon-container--accent">
@@ -391,30 +336,27 @@
       <div class="grid grid--1x2">
         <div class="callout__content">
           <h2 class="callout__heading">Read To Get Started</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-            molestias nulla voluptas facilis mollitia et dolores minima quod
-            aperiam? Inventore.
-          </p>
+          <p>Contact us now and get some exciting offers!</p>
         </div>
         <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
       </div>
     </div>
+
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">products</h2>
+            <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Website Hosting</a></li>
-              <li><a href="#">Free Automated Wordpress</a></li>
-              <li><a href="#">Migrations</a></li>
-              <li><a href="#">Wordpress</a></li>
+              <li><a href="#">Shirts</a></li>
+              <li><a href="#">Pants</a></li>
+              <li><a href="#">Suits</a></li>
+              <li><a href="#">Jeans</a></li>
             </ul>
           </div>
         </section>
@@ -422,7 +364,7 @@
           <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
@@ -437,7 +379,7 @@
           <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
@@ -450,25 +392,26 @@
         </section>
         <section class="collapsible footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <h2 class="collapsible__heading footer__heading">Social</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Domain Checker</a></li>
-              <li><a href="#">Domain Transfer</a></li>
-              <li><a href="#">Free Domain</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
             </ul>
           </div>
         </section>
         <div class="footer__brand">
-          <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2022 Gaurav Borade</p>
+          <img src="./new-images/logo.png" alt="" />
+          <p class="footer__copyright">Copyright 2020 Ganesh Borade</p>
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

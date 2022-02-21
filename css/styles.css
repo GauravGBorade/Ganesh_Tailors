@@ -654,6 +654,11 @@ a {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .hero .block__header {
+    margin-top: 15rem;
+  }
+}
 /* Navigation Bar */
 .nav {
   background: #000;
@@ -744,7 +749,7 @@ a {
 
   .hero__content {
     text-align: left;
-    align-self: center;
+    align-self: flex-start;
   }
 }
 
@@ -752,7 +757,7 @@ a {
 .block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   border: 0;
-  margin: 4rem auto;
+  margin: 2rem auto;
   max-width: 670px;
 }
 
@@ -798,6 +803,7 @@ a {
 }
 
 .feature__image {
+  border-radius: 5px;
   width: 100%;
 }
 
@@ -862,7 +868,8 @@ a {
 }
 
 .footer__brand {
-  margin-top: 5rem;
+  margin-right: 2rem;
+  margin-top: rem;
   text-align: center;
 }
 
@@ -906,4 +913,10 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+.block__image {
+  margin-right: 10rem;
+  border: 15px solid #404040;
+  border-radius: 2rem;
 }
